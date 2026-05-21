@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ML datasets
+data/
+datasets/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.keras
+
+# Experiment outputs
+runs/
+outputs/
+logs/
+
+# Weights & Biases
+wandb/
+
+# macOS
+.DS_Store
